@@ -1,0 +1,4 @@
+# Install in the deployment user's crontab; adjust the absolute checkout path.
+* * * * * cd /opt/autohistory && docker compose exec -T bot python -m app.jobs.tick >> /var/log/autohistory/tick.log 2>&1
+15 2 * * * cd /opt/autohistory && bash ops/backup.sh >> /var/log/autohistory/backup.log 2>&1
+*/5 * * * * cd /opt/autohistory && docker compose exec -T bot python -m app.jobs.health >> /var/log/autohistory/health.log 2>&1

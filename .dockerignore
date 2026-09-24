@@ -1,0 +1,12 @@
+.env
+.local
+.venv
+.git
+.test-pg
+tmp
+output
+backups
+__pycache__
+.pytest_cache
+*.pdf
+tests

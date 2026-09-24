@@ -1,0 +1,17 @@
+.env
+.local/
+.venv/
+__pycache__/
+.pytest_cache/
+tmp/
+*.pyc
+*.log
+backups/
+ops/backup.env
+pytest-cache-files-*/
+.test-pg/
+output/
+Запустить бота.cmd
+Остановить бота.cmd
+AutoHistory_Архитектура_и_ТЗ.pdf
+AutoHistory_бизнес_гипотеза.pdf
